@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pokeapp/static/css/main.eca6d54c.css",
+    "main.js": "/pokeapp/static/js/main.ae027c6a.js",
+    "static/js/787.90e43d2f.chunk.js": "/pokeapp/static/js/787.90e43d2f.chunk.js",
+    "index.html": "/pokeapp/index.html",
+    "main.eca6d54c.css.map": "/pokeapp/static/css/main.eca6d54c.css.map",
+    "main.ae027c6a.js.map": "/pokeapp/static/js/main.ae027c6a.js.map",
+    "787.90e43d2f.chunk.js.map": "/pokeapp/static/js/787.90e43d2f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eca6d54c.css",
+    "static/js/main.ae027c6a.js"
+  ]
+}
