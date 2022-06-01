@@ -1,0 +1,20 @@
+[
+    {
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/152.png",
+        "alt": "Chikorita",
+        "NombreO": "Chikorita",
+        "skill": "Hojas afiladas"
+    },
+    {
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/158.png",
+        "alt": "Totodile",
+        "NombreO": "Waninoko",
+        "skill": "Hidropulso"
+    },
+    {
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/155.png",
+        "alt": "Cyndaquil",
+        "skill": "Erupción",
+        "NombreO": "Hinoarashi"
+    }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
+    "alt": "Bulbasaur",
+    "NombreO": "Fushigidane",
+    "skill": "Latigo cepa",
+    "type":"Planta"
+    
+  },
+  {
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
+    "alt": "Squirtle",
+    "NombreO": "Zenigame",
+    "skill": "Bomba agua",
+    "type":"Agua"
+  },
+  {
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
+    "alt": "Charmander",
+    "NombreO": "Hitokage",
+    "skill": "Ascuas",
+    "type":"Fuego"
+  }
+]

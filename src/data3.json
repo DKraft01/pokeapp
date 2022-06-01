@@ -1,0 +1,20 @@
+[
+  {
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/252.png",
+    "alt": "Treecko",
+    "NombreO": "Kimori",
+    "skill": "Recuperación"
+  },
+  {
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/258.png",
+    "alt": "Mudkip",
+    "NombreO": "Mizugorou",
+    "skill": "Bomba lodo"
+  },
+  {
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/255.png",
+    "alt": "Torchic",
+    "NombreO": "Achamo",
+    "skill": "Fuego igneo"
+  }
+]
