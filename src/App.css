@@ -1,87 +1,86 @@
-*{
+* {
   margin: 0;
   padding: 0;
-
 }
-  
-body, html{
+
+body,
+html {
   height: 100%;
-  background: #E98746;
-background: linear-gradient(180deg, #E98746 0%, #eeb28a 100%);
+  background: #e98746;
+  background: linear-gradient(180deg, #e98746 0%, #eeb28a 100%);
   overflow-y: hidden;
   background-size: cover;
 }
 
-
-
-.main{
+.main {
   width: 30%;
   height: 28vh;
   border: 1px solid rgb(150, 143, 143);
-background-color: #10949C;
+  background-color: #10949c;
   align-content: center;
   margin: auto;
   position: relative;
- margin-top: 2%;
- border-radius: 5%;
- box-shadow: 5px 2px 2px#06373a;
+  margin-top: 2%;
+  border-radius: 5%;
+  box-shadow: 5px 2px 2px#06373a;
 
-   display: block;
+  display: block;
 }
 
-.contenedor{
+.contenedor {
   margin-top: 4%;
 }
 
-.poke{
+.poke {
   width: 40%;
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
 
-.boton2{
-  
-  position:absolute;
+.boton2 {
+  position: absolute;
   right: 0;
   margin-top: 15%;
-  
 }
 
-.boton{position: absolute;
+.boton {
+  position: absolute;
   margin-top: 15%;
-left: 0;}
-
-button{
-padding-top: 100px;
-display:inline-block;
-padding:0.35em 1.2em;
-border:0.1em solid #FFFFFF;
-margin:0 0.3em 0.3em 0;
-border-radius:50vh;
-height: 4vh;
-box-sizing: border-box;
-text-decoration:none;
-font-family:'Roboto',sans-serif;
-font-weight:300;color:#000000;
-text-align:center;
-transition: all 0.2s;
-  }
-  button:hover{
-color:#000000;
-background-color:#FFFFFF;
-cursor: pointer;
-  }
-
-img:hover{
-  cursor:pointer;
-  width:40.5%;
+  left: 0;
 }
 
-.bloque{
+button {
+  padding-top: 100px;
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 50vh;
+  height: 4vh;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #000000;
+  text-align: center;
+  transition: all 0.2s;
+}
+button:hover {
+  color: #000000;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+img:hover {
+  cursor: pointer;
+  width: 40.5%;
+}
+
+.bloque {
   width: 60%;
   height: 85%;
-  background-color:rgb(247, 243, 238);
+  background-color: rgb(247, 243, 238);
   opacity: 90%;
   position: fixed;
   top: 50%;
@@ -91,70 +90,63 @@ img:hover{
   z-index: 1;
 }
 
-
-.pokeCard{
+.pokeCard {
   width: 40%;
-  
+
   display: inline-block;
   position: relative;
-
 }
 
-.title{
-  display:inline;
+.title {
+  display: inline;
   position: absolute;
-  top:10%;
+  top: 10%;
   left: 70%;
-  transform: translate(-50%,-50%);
-  
-  
-
+  transform: translate(-50%, -50%);
 }
 
-.cerrar{
+.cerrar {
   background-image: url("https://cdn.iconscout.com/icon/free/png-256/close-1912235-1617704.png");
   background-size: cover;
   border: none;
   background-color: rgb(247, 243, 238);
   position: absolute;
   top: 2%;
-  
+
   right: 2%;
-  
 }
 
-.characteristics{
-  display:inline;
-  position:absolute;
-  top:35%;
+.characteristics {
+  display: inline;
+  position: absolute;
+  top: 35%;
   left: 55%;
-  transform: translate(-50%,-50%);
-
+  transform: translate(-50%, -50%);
 }
 
-h5{
+h5 {
   padding: 5vh;
 }
 
-.texto{padding: 7vh;
+.texto {
+  padding: 7vh;
 
-text-align: justify;
-
+  text-align: justify;
 }
 
-.enviar{
+.enviar {
   color: aliceblue;
   background-color: #896ed1;
   margin-top: 2vh;
   position: absolute;
   text-align: center;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Oswald:wght@400;500&family=Poppins:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Oswald:wght@400;500&family=Poppins:wght@500&display=swap");
 
-.add{
+.add {
   width: 25vh;
   height: 8vh;
   border: none;
@@ -164,47 +156,40 @@ text-align: justify;
   bottom: 5vh;
   font-size: 3vh;
   right: 4vh;
-  font-family:'Lilita One', cursive;
+  font-family: "Lilita One", cursive;
   box-shadow: 5px 2px 2px#06373a;
-
 }
 
-
-.form{
+.form {
   padding: 4vh;
   width: 55vh;
   height: 45vh;
   border: none;
-  background-color:rgb(57, 57, 92);
+  background-color: rgb(57, 57, 92);
   position: absolute;
   color: aliceblue;
-  bottom:16vh;
+  bottom: 16vh;
   font-size: 3vh;
   right: 4vh;
-  font-family:'Lilita One', cursive;
+  font-family: "Lilita One", cursive;
   border-radius: 2vh;
   box-shadow: 5px 2px 2px#06373a;
-  
-
-  
-
 }
 
-h4{
+h4 {
   margin-bottom: 2vh;
 }
 
-input{
- margin: 1vh;
- font-weight: 700;
-
+input {
+  margin: 1vh;
+  font-weight: 700;
 }
-.input{
+.input {
   background-color: transparent;
   color: aliceblue;
   border: none;
   border-bottom: rgb(153, 168, 180) 1px solid;
-  
+
   margin: 0.2vh;
   margin-top: 6vh;
   margin-bottom: 1vh;
@@ -212,22 +197,22 @@ input{
   margin-right: 3vh;
 }
 
-input::placeholder{color: rgb(228, 234, 240,0.3);
+input::placeholder {
+  color: rgb(228, 234, 240, 0.3);
 }
 
-input:focus{
+input:focus {
   border: none;
   background-color: transparent;
   outline: none;
   border-bottom: rgb(153, 168, 180, 0.3) 1px solid;
-
 }
 
-.formName{
+.formName {
   font-weight: lighter;
 }
 
-.formButton{
+.formButton {
   border: none;
   color: aliceblue;
   background-color: #896ed1;
@@ -236,9 +221,8 @@ input:focus{
   position: absolute;
   text-align: center;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   width: 10vh;
   height: 5vh;
   font-weight: bold;
-  
 }
