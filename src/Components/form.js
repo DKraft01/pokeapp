@@ -22,31 +22,33 @@ export default class Form extends React.Component {
       return (
         <div className="form">
           <form onSubmit={this.onSubmit.bind()}>
-            <h4 className="formName">Generación</h4>
-            <input
-              type="radio"
-              name="gen"
-              value="1"
-              required
-              onChange={this.onChange}
-            ></input>
-            1
-            <input
-              type="radio"
-              name="gen"
-              value="2"
-              required
-              onChange={this.onChange}
-            ></input>
-            2
-            <input
-              type="radio"
-              name="gen"
-              value="3"
-              required
-              onChange={this.onChange}
-            ></input>
-            3<br></br>
+            <div>
+              <h4 className="formName">Generación</h4>
+              <input
+                type="radio"
+                name="gen"
+                value="1"
+                required
+                onChange={this.onChange}
+              ></input>
+              1
+              <input
+                type="radio"
+                name="gen"
+                value="2"
+                required
+                onChange={this.onChange}
+              ></input>
+              2
+              <input
+                type="radio"
+                name="gen"
+                value="3"
+                required
+                onChange={this.onChange}
+              ></input>
+              3<br></br>
+            </div>
             <input
               required
               className="input"
@@ -61,7 +63,7 @@ export default class Form extends React.Component {
               name="image"
               onChange={this.onChange}
             ></input>
-            <br></br>
+
             <input
               className="input"
               placeholder="Nombre Original"
@@ -74,19 +76,19 @@ export default class Form extends React.Component {
               name="type"
               onChange={this.onChange}
             ></input>
+
+            <input
+              className="input"
+              placeholder="Habilidad"
+              name="skill"
+              onChange={this.onChange}
+            ></input>
             <br></br>
-            <center>
-              <input
-                className="input"
-                placeholder="Habilidad"
-                name="skill"
-                onChange={this.onChange}
-              ></input>
-            </center>
-            <br></br>
-            <button type="submit" className="formButton">
-              Add
-            </button>
+            <div className="form-button-div">
+              <button type="submit" className="formButton">
+                Add
+              </button>
+            </div>
           </form>
         </div>
       );

@@ -1,31 +1,35 @@
-import React from 'react';
-import Form from './form';
+import React from "react";
+import Form from "./form";
 
+import "./form.css";
 
-export default class AddButton extends React.Component{
-   state= {
-       open:false
-   }
+export default class AddButton extends React.Component {
+  state = {
+    open: false,
+  };
 
-   close=(c)=>{
-       this.setState({
-           open:c
-       })
+  close = (c) => {
+    this.setState({
+      open: c,
+    });
+  };
 
-   }
-
-
-
-    render(){
-
-        return(
-        <div>
-        <button onClick={()=>this.setState({open:!this.state.open})} className="add" type="button">Add +</button>
-        <Form display={this.state.open} addpoke={this.props.addpoke} close={this.close}  ></Form>
-        </div>
-        
-        )
-        
-    }
+  render() {
+    return (
+      <div>
+        <button
+          onClick={() => this.setState({ open: !this.state.open })}
+          className="add"
+          type="button"
+        >
+          Add +
+        </button>
+        <Form
+          display={this.state.open}
+          addpoke={this.props.addpoke}
+          close={this.close}
+        ></Form>
+      </div>
+    );
+  }
 }
-

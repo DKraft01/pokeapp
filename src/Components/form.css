@@ -1,0 +1,108 @@
+.add {
+  border-radius: 50vh;
+  transition: all 0.2s;
+
+  width: 25vh;
+  height: 8vh;
+  border: none;
+  background-color: rgb(84, 84, 128);
+  position: absolute;
+  color: aliceblue;
+  bottom: 5vh;
+  font-size: 3vh;
+  right: 4vh;
+  font-family: "Lilita One", cursive;
+  box-shadow: 5px 2px 2px#06373a;
+}
+
+@media only screen and (min-width: 500px) {
+  .form {
+    padding: 4vh;
+
+    width: 30vw;
+
+    border: none;
+    background-color: rgb(57, 57, 92);
+    position: absolute;
+    color: aliceblue;
+    bottom: 16vh;
+
+    right: 4vh;
+    font-family: "Lilita One", cursive;
+    border-radius: 2vh;
+    box-shadow: 5px 2px 2px#06373a;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .form form {
+    padding: 4vh;
+
+    border: none;
+    background-color: rgb(57, 57, 92);
+    position: absolute;
+    color: aliceblue;
+    bottom: 16vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    right: 4vh;
+    font-family: "Lilita One", cursive;
+    border-radius: 2vh;
+    box-shadow: 5px 2px 2px#06373a;
+  }
+}
+h4 {
+  margin-bottom: 2vh;
+}
+
+input {
+  margin: 1vh;
+  font-weight: 700;
+}
+.input {
+  background-color: transparent;
+  color: aliceblue;
+  border: none;
+  border-bottom: rgb(153, 168, 180) 1px solid;
+
+  margin: 0.2vh;
+  margin-top: 6vh;
+  margin-bottom: 1vh;
+  font-size: 13px;
+  margin-right: 3vh;
+}
+
+input::placeholder {
+  color: rgb(228, 234, 240, 0.3);
+}
+
+input:focus {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  border-bottom: rgb(153, 168, 180, 0.3) 1px solid;
+}
+
+.formName {
+  font-weight: lighter;
+}
+
+.form-button-div {
+  display: flex;
+  justify-content: center;
+}
+.formButton {
+  border-radius: 50vh;
+  margin-top: 5%;
+  transition: all 0.2s;
+
+  border: none;
+  color: aliceblue;
+  background-color: #896ed1;
+
+  width: 10vh;
+  height: 5vh;
+  font-weight: bold;
+}
