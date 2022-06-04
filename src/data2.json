@@ -3,18 +3,21 @@
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/152.png",
     "alt": "Chikorita",
     "NombreO": "Chikorita",
-    "skill": "Hojas afiladas"
+    "skill": "Hojas afiladas",
+    "type": "Planta"
   },
   {
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/158.png",
     "alt": "Totodile",
     "NombreO": "Waninoko",
-    "skill": "Hidropulso"
+    "skill": "Hidropulso",
+    "type": "Agua"
   },
   {
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/155.png",
     "alt": "Cyndaquil",
     "skill": "Erupción",
-    "NombreO": "Hinoarashi"
+    "NombreO": "Hinoarashi",
+    "type": "Fuego"
   }
 ]

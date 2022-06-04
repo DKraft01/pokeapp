@@ -65,17 +65,6 @@ class Poke extends React.Component {
               }}
             ></button>
 
-            <button
-              className="boton2"
-              onClick={() => {
-                if (this.state.act > this.props.data.length - 2) {
-                  this.setState({ act: 0 });
-                } else {
-                  this.setState({ act: this.state.act + 1 });
-                }
-              }}
-            ></button>
-
             <Saludo
               image={ruta.image}
               nombreO={ruta.NombreO}
@@ -84,6 +73,17 @@ class Poke extends React.Component {
               skill={ruta.skill}
               type={ruta.type}
             />
+
+            <button
+              className="boton"
+              onClick={() => {
+                if (this.state.act > this.props.data.length - 2) {
+                  this.setState({ act: 0 });
+                } else {
+                  this.setState({ act: this.state.act + 1 });
+                }
+              }}
+            ></button>
           </div>
         </div>
       </div>

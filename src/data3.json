@@ -3,18 +3,21 @@
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/252.png",
     "alt": "Treecko",
     "NombreO": "Kimori",
-    "skill": "Recuperación"
+    "skill": "Recuperación",
+    "type": "Planta"
   },
   {
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/258.png",
     "alt": "Mudkip",
     "NombreO": "Mizugorou",
-    "skill": "Bomba lodo"
+    "skill": "Bomba lodo",
+    "type": "Agua"
   },
   {
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/255.png",
     "alt": "Torchic",
     "NombreO": "Achamo",
-    "skill": "Fuego igneo"
+    "skill": "Fuego igneo",
+    "type": "Fuego"
   }
 ]

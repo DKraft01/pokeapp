@@ -25,14 +25,14 @@ class Saludo extends React.Component {
     }
 
     return (
-      <div>
+      <>
         <img
           onClick={() => this.setState({ card: true })}
           className="poke"
           alt={this.props.alt}
           src={this.props.image}
         ></img>
-      </div>
+      </>
     );
   }
 }

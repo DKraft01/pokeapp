@@ -1,0 +1,102 @@
+h5 {
+  padding-top: 4%;
+  padding-bottom: 10%;
+}
+
+@media (orientation: portrait) {
+  .bloque {
+    background-color: rgb(247, 243, 238);
+    opacity: 90%;
+    border-radius: 2vh;
+    z-index: 1;
+
+    width: 70vw;
+    position: fixed;
+    top: 2%;
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+    align-items: center;
+  }
+  .cerrar {
+    height: 5vh;
+    width: 8vw;
+  }
+}
+
+@media (orientation: landscape) {
+  .bloque {
+    background-color: rgb(247, 243, 238);
+    opacity: 90%;
+    border-radius: 2vh;
+    z-index: 1;
+    position: fixed;
+    top: 10%;
+    width: 50vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5%;
+  }
+
+  .cerrar {
+    height: 5vh;
+    width: 3vw;
+  }
+}
+.main-text {
+  display: flex;
+  font-size: calc(0.8rem + 0.2vw);
+  flex-direction: column;
+}
+
+.pokeCard {
+  width: 60%;
+  display: inline-block;
+  margin-left: 10%;
+}
+
+.title {
+  display: inline-block;
+}
+
+.characteristics {
+  display: inline-block;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  font-size: calc(0.8rem + 0.2vw);
+}
+
+.enviar {
+  color: aliceblue;
+  background-color: #896ed1;
+  border-radius: 50vh;
+  padding: 1.5%;
+  border: none;
+}
+
+.cerrar {
+  position: absolute;
+  right: 2%;
+  top: 2%;
+  border-radius: 50vh;
+
+  display: flex;
+
+  transition: all 0.2s;
+
+  background-size: cover;
+  border: none;
+  background-color: rgb(247, 243, 238);
+  z-index: 3;
+}
+
+.cerrar:hover {
+  cursor: pointer;
+}
