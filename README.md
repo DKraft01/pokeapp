@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+#Visualize Project
+
+This project was uploaded with gh-pages. You can watch it at (https://dkraft01.github.io/pokeapp/)
+
 ## Available Scripts
 
 In the project directory, you can run:
